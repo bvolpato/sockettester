@@ -48,17 +48,7 @@ public class SocketTesterController {
       vo.setStatus("OK");
       vo.setValid(true);
 
-      try {
-        @SuppressWarnings("unchecked")
-        Class<ISocketTesterService> serviceClass =
-            (Class<ISocketTesterService>) Class.forName("org.brunocvcunha.sockettester.service."
-                + vo.getType() + "TesterService");
-        ISocketTesterService service = serviceClass.newInstance();
-
-        service.validate(vo);
-      } catch (Exception e) {
-        throw new RuntimeException("Error occurred validating socket " + vo, e);
-      }
+      validate(vo);
 
     } else {
       vo.setStatus("Error establishing connection.");
@@ -67,4 +57,17 @@ public class SocketTesterController {
     return vo;
   }
 
+  public static void validate(SocketTesterVO vo) {
+    try {
+      @SuppressWarnings("unchecked")
+      Class<ISocketTesterService> serviceClass =
+          (Class<ISocketTesterService>) Class.forName("org.brunocvcunha.sockettester.service."
+              + vo.getType() + "TesterService");
+      ISocketTesterService service = serviceClass.newInstance();
+
+      service.validate(vo);
+    } catch (Exception e) {
+      throw new RuntimeException("Error occurred validating socket " + vo, e);
+    }
+  }
 }
