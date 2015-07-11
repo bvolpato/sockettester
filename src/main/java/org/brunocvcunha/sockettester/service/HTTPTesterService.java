@@ -19,7 +19,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import org.apache.log4j.Logger;
-import org.brunocunha.inutils4j.MyStringUtils;
+import org.brunocvcunha.inutils4j.MyStringUtils;
 import org.brunocvcunha.sockettester.vo.SocketTesterVO;
 
 /**

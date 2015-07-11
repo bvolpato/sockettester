@@ -21,7 +21,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
-import org.brunocunha.inutils4j.MyStringUtils;
+import org.brunocvcunha.inutils4j.MyStringUtils;
 import org.brunocvcunha.sockettester.core.SocketTesterHelper;
 import org.brunocvcunha.sockettester.vo.SocketTesterVO;
 
