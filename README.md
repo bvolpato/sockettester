@@ -2,8 +2,8 @@ sockettester
 ========
 
 [![Apache License](http://img.shields.io/badge/license-ASL-blue.svg)](https://github.com/brunocvcunha/sockettester/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/brunocvcunha/inutils4j.svg)](https://travis-ci.org/brunocvcunha/sockettester)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.brunocvcunha.inutils4j/inutils4j/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.brunocvcunha.sockettester/sockettester)
+[![Build Status](https://travis-ci.org/brunocvcunha/sockettester.svg)](https://travis-ci.org/brunocvcunha/sockettester)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.brunocvcunha.sockettester/sockettester/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.brunocvcunha.sockettester/sockettester)
 [![Coverage Status](https://coveralls.io/repos/github/brunocvcunha/sockettester/badge.svg?branch=master)](https://coveralls.io/github/brunocvcunha/sockettester?branch=master)
 
 :earth_americas: Network Monitoring Tool for Java
