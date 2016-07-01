@@ -19,7 +19,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.brunocvcunha.sockettester</groupId>
 	<artifactId>sockettester</artifactId>
-	<version>0.1</version>
+	<version>0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Socket Tester</name>
 	<description>Network Monitoring Tool for Java</description>
