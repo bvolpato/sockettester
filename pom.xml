@@ -26,7 +26,7 @@
 	<description>Network Monitoring Tool for Java</description>
 	<url>http://github.com/brunocvcunha/sockettester</url>
 	<inceptionYear>2015</inceptionYear>
-	
+
 	<licenses>
 		<license>
 			<name>The Apache License, Version 2.0</name>
@@ -162,9 +162,9 @@
 		</dependency>
 
 
-		<!-- OpenEdge, turned off for a moment <dependency> <groupId>com.progress</groupId> 
-			<artifactId>openedge</artifactId> <version>11.3</version> </dependency> <dependency> 
-			<groupId>com.progress</groupId> <artifactId>o4glrt</artifactId> <version>11.3</version> 
+		<!-- OpenEdge, turned off for a moment <dependency> <groupId>com.progress</groupId>
+			<artifactId>openedge</artifactId> <version>11.3</version> </dependency> <dependency>
+			<groupId>com.progress</groupId> <artifactId>o4glrt</artifactId> <version>11.3</version>
 			</dependency> -->
 
 		<dependency>
@@ -244,5 +244,11 @@
 		</profile>
 	</profiles>
 
+	<repositories>
+		<repository>
+	    <id>jboss-3rd-party-releases</id>
+	    <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
+	  </repository>
+	</repositories>
 
 </project>
